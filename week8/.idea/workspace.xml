@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6a0fe629-7915-4f0e-a588-0b342e993ab3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Calculator/project/target/config-classes/$37e24fbb0d0b5b354074$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/project/target/config-classes/$37e24fbb0d0b5b354074.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/project/target/config-classes/$37e24fbb0d0b5b354074.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/project/target/config-classes/$3cd146e8b6ed68693013$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/project/target/config-classes/$3cd146e8b6ed68693013.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/project/target/config-classes/$3cd146e8b6ed68693013.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/project/target/config-classes/$433859b8104dca1d4905$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/project/target/config-classes/$433859b8104dca1d4905.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/project/target/config-classes/$433859b8104dca1d4905.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/project/target/config-classes/$58dca92a96a3cb6c1799$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/project/target/config-classes/$58dca92a96a3cb6c1799.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/project/target/config-classes/$58dca92a96a3cb6c1799.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/project/target/config-classes/$caf11654dbc786955696$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/project/target/config-classes/$caf11654dbc786955696.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/project/target/config-classes/$caf11654dbc786955696.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/project/target/config-classes/$e8320a6f02e971d1d9be$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/project/target/config-classes/$e8320a6f02e971d1d9be.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/project/target/config-classes/$e8320a6f02e971d1d9be.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/project/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/project/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/project/target/streams/compile/_global/_global/dependencyClasspathFiles/previous" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/project/target/streams/compile/_global/_global/dependencyClasspathFiles/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/project/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/project/target/streams/compile/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/project/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/project/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/project/target/streams/runtime/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/project/target/streams/runtime/fullClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/project/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/project/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/target/.history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/target/streams/_global/_global/checkBuildSources/_global/inputFileStamps/previous" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/target/streams/_global/_global/checkBuildSources/_global/inputFileStamps/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/target/streams/_global/_global/dumpStructure/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/target/streams/_global/_global/dumpStructure/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week5/sis5/src/main/scala/DataProcessing.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../week5/sis5/src/main/scala/DataProcessing.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week5/sis5/src/main/scala/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../week5/sis5/src/main/scala/Main.scala" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1jZByqCAzSeZL1nJXkWuih4gglB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a0fe629-7915-4f0e-a588-0b342e993ab3" name="Default Changelist" comment="" />
+      <created>1604001993238</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604001993238</updated>
+      <workItem from="1604001995728" duration="83000" />
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1604002035971">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1604002035971" />
+    <state x="209" y="96" key="new project wizard" timestamp="1604002076996">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="96" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1604002076996" />
+  </component>
+</project>

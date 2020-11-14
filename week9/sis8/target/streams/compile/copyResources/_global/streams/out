@@ -1,0 +1,3 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\backendScala\labs\week9\sis8\src\main\resources\application.conf,C:\backendScala\labs\week9\sis8\target\scala-2.13\classes\application.conf)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\backendScala\labs\week9\sis8\src\main\resources\logback.xml,C:\backendScala\labs\week9\sis8\target\scala-2.13\classes\logback.xml)[0m[0J

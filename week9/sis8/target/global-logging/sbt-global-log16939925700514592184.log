@@ -1,0 +1,91 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.1 (Oracle Corporation Java 13.0.2)
+[debug]       Load.loadUnit: plugins took 281.914ms
+[debug]       Load.loadUnit: defsScala took 0.7706ms
+[debug] [Loading] Scanning directory C:\Users\HP\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\HP\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 51.4163 ms
+[debug]           Load.resolveProject(global-plugins) took 101.2333ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\HP\.sbt\1.0\plugins, plugins: List(<none>))) took 223.3295ms
+[debug] [Loading] Done in C:\Users\HP\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 282.5064ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.4843ms
+[debug]     Load.loadUnit(file:/C:/Users/HP/.sbt/1.0/plugins/, ...) took 601.7045ms
+[debug]   Load.apply: load took 991.11ms
+[debug]   Load.apply: resolveProjects took 11.6404ms
+[debug]   Load.apply: finalTransforms took 106.0813ms
+[debug]   Load.apply: config.delegates took 12.1906ms
+[debug]   Load.apply: Def.make(settings)... took 1365.5857ms
+[debug]   Load.apply: structureIndex took 160.0946ms
+[debug]   Load.apply: mkStreams took 3.1481ms
+[info] loading global plugins from C:\Users\HP\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 7098.8548ms
+[debug]           Load.loadUnit: plugins took 135.0654ms
+[debug]           Load.loadUnit: defsScala took 0.0102ms
+[debug] [Loading] Scanning directory C:\backendScala\labs\week8\sis7\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\backendScala\labs\week8\sis7\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 4.0867 ms
+[debug]               Load.resolveProject(sis7-build) took 4.0182ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id sis7-build, base: C:\backendScala\labs\week8\sis7\project, plugins: List(<none>))) took 9.5087ms
+[debug] [Loading] Done in C:\backendScala\labs\week8\sis7\project, returning: (sis7-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 13.5879ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.0455ms
+[debug]         Load.loadUnit(file:/C:/backendScala/labs/week8/sis7/project/, ...) took 150.5291ms
+[debug]       Load.apply: load took 155.916ms
+[debug]       Load.apply: resolveProjects took 0.2535ms
+[debug]       Load.apply: finalTransforms took 37.39ms
+[debug]       Load.apply: config.delegates took 1.0071ms
+[debug]       Load.apply: Def.make(settings)... took 390.3888ms
+[debug]       Load.apply: structureIndex took 145.5504ms
+[debug]       Load.apply: mkStreams took 0.0062ms
+[info] loading project definition from C:\backendScala\labs\week8\sis7\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 2005.8609ms
+[debug]     Load.loadUnit: defsScala took 0.0164ms
+[debug] [Loading] Scanning directory C:\backendScala\labs\week8\sis7
+[debug]       Load.loadUnit: mkEval took 23.483ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\backendScala\labs\week8\sis7, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 4.773 ms
+[info] loading settings for project sis7 from build.sbt ...
+[debug]         Load.resolveProject(sis7) took 7.8979ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id sis7, base: C:\backendScala\labs\week8\sis7, plugins: List(<none>))) took 13.975ms
+[debug] [Loading] Done in C:\backendScala\labs\week8\sis7, returning: (sis7)
+[debug]     Load.loadUnit: loadedProjectsRaw took 637.376ms
+[debug]     Load.loadUnit: cleanEvalClasses took 54.9539ms
+[debug]   Load.loadUnit(file:/C:/backendScala/labs/week8/sis7/, ...) took 2701.076ms
+[debug] Load.apply: load took 2708.4513ms
+[debug] Load.apply: resolveProjects took 2.5898ms
+[debug] Load.apply: finalTransforms took 39.2416ms
+[debug] Load.apply: config.delegates took 0.9721ms
+[debug] Load.apply: Def.make(settings)... took 642.7595ms
+[debug] Load.apply: structureIndex took 101.6477ms
+[debug] Load.apply: mkStreams took 0.0054ms
+[info] set current project to sis7 (in build file:/C:/backendScala/labs/week8/sis7/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\backendScala\labs\week8\sis7\target\scala-2.13\classes ...
+[info] done compiling

@@ -1,0 +1,3 @@
+[debug] Copy resource mappings: 
+[debug] 	(C:\backendScala\labs\week8\sis7\src\main\resources\application.conf,C:\backendScala\labs\week8\sis7\target\scala-2.13\classes\application.conf)
+[debug] 	(C:\backendScala\labs\week8\sis7\src\main\resources\logback.xml,C:\backendScala\labs\week8\sis7\target\scala-2.13\classes\logback.xml)
