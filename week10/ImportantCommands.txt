@@ -1,6 +1,0 @@
-zookeeper run
-.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
-kafka run
-.\bin\windows\kafka-server-start.bat .\config\server-1.properties
-Topic CONTENT
-.\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic service2Test --from-beginning
