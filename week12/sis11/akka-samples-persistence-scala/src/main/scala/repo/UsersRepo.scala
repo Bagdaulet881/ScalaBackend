@@ -5,18 +5,17 @@ import java.util.UUID
 import UserAccount._
 
 import scala.concurrent.{ExecutionContext, Future}
-import model.AddBook
+import model.AddBookToUser
 import model._
 trait UsersRepository {
   def allUsers(): Future[Seq[User]]
   def createUser(createUser:CreateUser): Future[User]
   def login(signIn: SignIn): Future[Token]
-  def updateUser(id: String, addBook: AddBook): Future[User]
+  def updateUser(id: String, addBook: AddBookToUser): Future[User]
   def deleteUser(id: String): Future[User]
   def getUser(id: String): Future[User]
 
   def allBooks(): Future[Seq[Book]]
-  def createBook(createBook:CreateBook): Future[Book]
   def deleteBook(id: String): Future[Book]
   def getBook(id: String): Future[Book]
   def searchBook(name: String): Future[Seq[Book]]
@@ -24,6 +23,7 @@ trait UsersRepository {
 final case class UserNotFound(id: String) extends Exception("User " + id + " not found")
 final case class BookNotFound(id: String) extends Exception("Book " + id + " not found")
 final case class BookFound(id: String) extends Exception("Book " + id + "  is already in list")
+
 class InMemoryRepository(usersList:Seq[User] = Seq.empty, booksList: Seq[Book] = Seq.empty
                              )(implicit  ex:ExecutionContext) extends UsersRepository {
   private var users: Vector[User] = usersList.toVector
@@ -40,11 +40,11 @@ class InMemoryRepository(usersList:Seq[User] = Seq.empty, booksList: Seq[Book] =
     users = users :+ user
     user
   }
-  override def updateUser(id: String, addBook: AddBook): Future[User] = {
+  override def updateUser(id: String, addBook: AddBookToUser): Future[User] = {
     users.find(_.id == id) match {
       case Some(user) =>
-        if (user.books.find(_.id == addBook.id ) != null){
-          val book_tmp = books.find(_.id==addBook.id)
+        if (user.books.find(_.id == addBook.bookId ) != null){
+          val book_tmp = books.find(_.id==addBook.bookId)
           book_tmp match {
             case Some(b) =>
               val books_tmp = user.books :+ b
@@ -53,7 +53,7 @@ class InMemoryRepository(usersList:Seq[User] = Seq.empty, booksList: Seq[Book] =
               Future.successful(tmp)
           }
         }else{
-          Future.failed(BookFound(addBook.id))
+          Future.failed(BookFound(addBook.bookId))
         }
       case None =>
         Future.failed(UserNotFound(id))
@@ -87,20 +87,12 @@ class InMemoryRepository(usersList:Seq[User] = Seq.empty, booksList: Seq[Book] =
         Future.failed(UserNotFound(id))
     }
   }
-
+//-----------------------------------------------------------
   override def allBooks(): Future[Seq[Book]] = {
     Future.successful(books)
   }
 
-  override def createBook(createBook: CreateBook): Future[Book] = {
-    val book = Book(
-      id = UUID.randomUUID().toString,
-      name = createBook.name,
-      description = createBook.description,
-    )
-    books = books :+ book
-    Future.successful(book)
-  }
+
 
   override def deleteBook(id: String): Future[Book] = {
     books.find(_.id == id) match {
