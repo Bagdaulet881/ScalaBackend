@@ -1,0 +1,8 @@
+[warn] C:\backendScala\labs\week12\sis11\akka-persistence\src\main\scala\http\HttpServerSample.scala:1:1: 
+[warn] Found names but no class, trait or object is defined in the compilation unit.
+[warn] The incremental compiler cannot record the dependency information in such case.
+[warn] Some errors like unused import referring to a non-existent class might not be reported.
+[warn]     
+[warn] package http
+[warn] ^
+[warn] one warning found
